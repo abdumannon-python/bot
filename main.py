@@ -2,6 +2,8 @@ import asyncio
 import logging
 import sys
 import os
+import types
+
 from dotenv import load_dotenv
 from aiogram import Bot,Dispatcher,html
 from aiogram.client.default import DefaultBotProperties
